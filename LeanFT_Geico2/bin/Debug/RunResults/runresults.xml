@@ -1,0 +1,1390 @@
+<Results>
+  <GeneralInfo>
+    <RunStartTime>2016-11-07 16:23:43</RunStartTime>
+    <Timezone>Eastern Standard Time</Timezone>
+    <OrchestrationToolName>test-domain-LeanFT_Geico2.dll</OrchestrationToolName>
+    <ReportTitle>LeanFT Report</ReportTitle>
+    <CustomFields name="MC Server Address" value="http://hpmc.orasi.com:8080/" />
+  </GeneralInfo>
+  <ReportNode type="Run">
+    <Data>
+      <StartTime>2016-11-07 16:23:43</StartTime>
+      <Duration>16</Duration>
+      <Result>Passed</Result>
+      <ErrorText></ErrorText>
+      <Links></Links>
+      <Extension>
+        <Any>
+          <IconKey>Run</IconKey>
+          <IsHtmlErrorText>true</IsHtmlErrorText>
+        </Any>
+      </Extension>
+      <Name>Run Results</Name>
+      <Environment>
+        <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+        <HostName><![CDATA[DESKTOP-58CP18H]]></HostName>
+        <NumberOfCores>4</NumberOfCores>
+        <TotalMemory>16310</TotalMemory>
+        <Locale><![CDATA[en-US]]></Locale>
+        <Timezone>Eastern Standard Time</Timezone>
+        <User>Adam</User>
+      </Environment>
+      <TestedApplication />
+      <ToolName>LeanFT</ToolName>
+      <ToolVersion><![CDATA[12.54]]></ToolVersion>
+      <Description> </Description>
+    </Data>
+    <ReportNode type="Assembly">
+      <Data>
+        <Name><![CDATA[LeanFT_Geico2]]></Name>
+        <Description><![CDATA[Version: 1.0.0.0]]></Description>
+        <StartTime>11/7/2016 4:23:44 PM</StartTime>
+        <Duration>16</Duration>
+        <Result>Passed</Result>
+        <Video></Video>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>Assembly</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+      <ReportNode type="Namespace">
+        <Data>
+          <Name><![CDATA[LeanFT_Geico2]]></Name>
+          <Description><![CDATA[]]></Description>
+          <StartTime>11/7/2016 4:23:44 PM</StartTime>
+          <Duration>15</Duration>
+          <Result>Passed</Result>
+          <Video></Video>
+          <ErrorText></ErrorText>
+          <Links></Links>
+          <Extension>
+            <Any>
+              <IconKey>Namespace</IconKey>
+              <IsHtmlErrorText>true</IsHtmlErrorText>
+            </Any>
+          </Extension>
+        </Data>
+        <ReportNode type="Class">
+          <Data>
+            <Name>LeanFtTest</Name>
+            <Description><![CDATA[]]></Description>
+            <StartTime>11/7/2016 4:23:44 PM</StartTime>
+            <Duration>15</Duration>
+            <Result>Passed</Result>
+            <Video></Video>
+            <ErrorText></ErrorText>
+            <Links></Links>
+            <Extension>
+              <Any>
+                <IconKey>Class</IconKey>
+                <IsHtmlErrorText>true</IsHtmlErrorText>
+              </Any>
+            </Extension>
+          </Data>
+          <ReportNode type="Test">
+            <Data>
+              <Name>ValidLogin</Name>
+              <Description><![CDATA[]]></Description>
+              <StartTime>2016-11-07 16:23:44</StartTime>
+              <Duration>15</Duration>
+              <Result>Passed</Result>
+              <ErrorText></ErrorText>
+              <Links></Links>
+              <Extension>
+                <Any>
+                  <IconKey>Test</IconKey>
+                  <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+              </Extension>
+            </Data>
+            <ReportNode type="TestCase">
+              <Data>
+                <Name><![CDATA[ValidLogin("bob")]]></Name>
+                <Description><![CDATA[]]></Description>
+                <StartTime>2016-11-07 16:23:44</StartTime>
+                <Duration>7</Duration>
+                <Result>Passed</Result>
+                <ErrorText></ErrorText>
+                <Links></Links>
+                <Extension>
+                  <Any>
+                    <IconKey>TestCase</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                  </Any>
+                </Extension>
+              </Data>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Browser.Launch]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:44</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path />
+                        <Operation>Launch</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></OperationData>
+                        <Properties />
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                        <FlowTreeNodeCaption><![CDATA[Browser.<span class='emphasis'>Launch("Firefox")</span>]]></FlowTreeNodeCaption>
+                        <FlowTreeNodeTooltip><![CDATA[Browser.Launch("Firefox")]]></FlowTreeNodeTooltip>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.ClearCache]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:47</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>ClearCache</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.Navigate]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:47</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Navigate</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[username].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;bob&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:47</StartTime>
+                  <Duration>2</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[username]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;bob&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[user[username]]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[username]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[password].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:48</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[password]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Id]]></Name>
+                            <Value><![CDATA[user_password]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[password]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Login.Click]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:49</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Button</Type>
+                            <Name><![CDATA[Login]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Click</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[TagName]]></Name>
+                            <Value><![CDATA[Input]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[Login]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Button</Type>
+                              <Name><![CDATA[Login]]></Name>
+                              <IconKey><![CDATA[Button]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>Button</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="CustomStep">
+                <Data>
+                  <Name>Login</Name>
+                  <Description><![CDATA[Tests valid login with username: bob]]></Description>
+                  <StartTime>2016-11-07 16:23:50</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IconKey>CustomStep</IconKey>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[AbcBankDemo.CloseAllTabs]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:50</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>CloseAllTabs</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+            </ReportNode>
+            <ReportNode type="TestCase">
+              <Data>
+                <Name><![CDATA[ValidLogin("frank")]]></Name>
+                <Description><![CDATA[]]></Description>
+                <StartTime>2016-11-07 16:23:50</StartTime>
+                <Duration>4</Duration>
+                <Result>Passed</Result>
+                <ErrorText></ErrorText>
+                <Links></Links>
+                <Extension>
+                  <Any>
+                    <IconKey>TestCase</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                  </Any>
+                </Extension>
+              </Data>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Browser.Launch]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:50</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path />
+                        <Operation>Launch</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></OperationData>
+                        <Properties />
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                        <FlowTreeNodeCaption><![CDATA[Browser.<span class='emphasis'>Launch("Firefox")</span>]]></FlowTreeNodeCaption>
+                        <FlowTreeNodeTooltip><![CDATA[Browser.Launch("Firefox")]]></FlowTreeNodeTooltip>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.ClearCache]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:51</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>ClearCache</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.Navigate]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:52</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Navigate</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[username].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;frank&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:52</StartTime>
+                  <Duration>2</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[username]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;frank&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[user[username]]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[username]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[password].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:53</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[password]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Id]]></Name>
+                            <Value><![CDATA[user_password]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[password]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Login.Click]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:53</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Button</Type>
+                            <Name><![CDATA[Login]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Click</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[TagName]]></Name>
+                            <Value><![CDATA[Input]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[Login]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Button</Type>
+                              <Name><![CDATA[Login]]></Name>
+                              <IconKey><![CDATA[Button]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>Button</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="CustomStep">
+                <Data>
+                  <Name>Login</Name>
+                  <Description><![CDATA[Tests valid login with username: frank]]></Description>
+                  <StartTime>2016-11-07 16:23:54</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IconKey>CustomStep</IconKey>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[AbcBankDemo.CloseAllTabs]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:54</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>CloseAllTabs</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+            </ReportNode>
+            <ReportNode type="TestCase">
+              <Data>
+                <Name><![CDATA[ValidLogin("sue")]]></Name>
+                <Description><![CDATA[]]></Description>
+                <StartTime>2016-11-07 16:23:54</StartTime>
+                <Duration>5</Duration>
+                <Result>Passed</Result>
+                <ErrorText></ErrorText>
+                <Links></Links>
+                <Extension>
+                  <Any>
+                    <IconKey>TestCase</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                  </Any>
+                </Extension>
+              </Data>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Browser.Launch]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:54</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path />
+                        <Operation>Launch</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>browserType</td><td class='ex-value'>Firefox</td></tr></table>]]></OperationData>
+                        <Properties />
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                        <FlowTreeNodeCaption><![CDATA[Browser.<span class='emphasis'>Launch("Firefox")</span>]]></FlowTreeNodeCaption>
+                        <FlowTreeNodeTooltip><![CDATA[Browser.Launch("Firefox")]]></FlowTreeNodeTooltip>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.ClearCache]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:55</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>ClearCache</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Mozilla Firefox Start Page.Navigate]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:55</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Navigate</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>url</td><td class='ex-value'>&quot;http://abcbank.orasi.com&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[Mozilla Firefox Start Page]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[username].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;sue&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:56</StartTime>
+                  <Duration>2</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[username]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;sue&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[user[username]]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[username]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[user[password].SetValue]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:57</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.EditField</Type>
+                            <Name><![CDATA[user[password]]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>SetValue</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>text</td><td class='ex-value'>&quot;pass1&quot;</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Id]]></Name>
+                            <Value><![CDATA[user_password]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.EditField</Type>
+                              <Name><![CDATA[user[password]]]></Name>
+                              <IconKey><![CDATA[EditField]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>EditField</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[Login.Click]]></Name>
+                  <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></Description>
+                  <StartTime>2016-11-07 16:23:57</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Page</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                          <Object>
+                            <Type>Web.Button</Type>
+                            <Name><![CDATA[Login]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>Click</Operation>
+                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>button</td><td class='ex-value'>Left</td></tr></table>]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[TagName]]></Name>
+                            <Value><![CDATA[Input]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Name]]></Name>
+                            <Value><![CDATA[Login]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <ApplicationModel>
+                        <LogicalName>BankOR</LogicalName>
+                        <ClassName><![CDATA[LeanFT_Geico2.BankOR]]></ClassName>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Page</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Page]]></IconKey>
+                            </Object>
+                            <Object>
+                              <Type>Web.Button</Type>
+                              <Name><![CDATA[Login]]></Name>
+                              <IconKey><![CDATA[Button]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </ApplicationModel>
+                      <IconKey>Button</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="CustomStep">
+                <Data>
+                  <Name>Login</Name>
+                  <Description><![CDATA[Tests valid login with username: sue]]></Description>
+                  <StartTime>2016-11-07 16:23:58</StartTime>
+                  <Duration>0</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IconKey>CustomStep</IconKey>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+              <ReportNode type="Step">
+                <Data>
+                  <Name><![CDATA[AbcBankDemo.CloseAllTabs]]></Name>
+                  <Description><![CDATA[]]></Description>
+                  <StartTime>2016-11-07 16:23:58</StartTime>
+                  <Duration>1</Duration>
+                  <Result>Passed</Result>
+                  <ErrorText></ErrorText>
+                  <Links></Links>
+                  <Extension>
+                    <Any>
+                      <IsHtmlErrorText>true</IsHtmlErrorText>
+                      <TestObject>
+                        <Path>
+                          <Object>
+                            <Type>Web.Browser</Type>
+                            <Name><![CDATA[AbcBankDemo]]></Name>
+                          </Object>
+                        </Path>
+                        <Operation>CloseAllTabs</Operation>
+                        <OperationData><![CDATA[]]></OperationData>
+                        <Properties>
+                          <Property>
+                            <Name><![CDATA[Type]]></Name>
+                            <Value><![CDATA[Mozilla Firefox]]></Value>
+                          </Property>
+                          <Property>
+                            <Name><![CDATA[Version]]></Name>
+                            <Value><![CDATA[49.0.2]]></Value>
+                          </Property>
+                        </Properties>
+                      </TestObject>
+                      <HideContextInfo>true</HideContextInfo>
+                      <Descriptive>
+                        <TestObject>
+                          <Path>
+                            <Object>
+                              <Type>Web.Browser</Type>
+                              <Name><![CDATA[AbcBankDemo]]></Name>
+                              <IconKey><![CDATA[Browser]]></IconKey>
+                            </Object>
+                          </Path>
+                        </TestObject>
+                      </Descriptive>
+                      <IconKey>Browser</IconKey>
+                      <CustomUIElements>
+                        <DescriptionLabel>Data</DescriptionLabel>
+                      </CustomUIElements>
+                    </Any>
+                  </Extension>
+                </Data>
+              </ReportNode>
+            </ReportNode>
+          </ReportNode>
+        </ReportNode>
+      </ReportNode>
+    </ReportNode>
+  </ReportNode>
+</Results>
